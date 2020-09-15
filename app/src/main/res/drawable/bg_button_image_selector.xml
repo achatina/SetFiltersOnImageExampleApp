@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+
+        <shape android:shape="rectangle">
+
+            <corners android:radius="@dimen/corners_pick_image_button" />
+            <solid android:color="@android:color/darker_gray" />
+
+        </shape>
+
+    </item>
+
+
+    <item>
+
+        <shape android:shape="rectangle">
+
+            <corners android:radius="@dimen/corners_pick_image_button" />
+            <solid android:color="@color/bg_pick_image_button_state_normal" />
+
+        </shape>
+
+    </item>
+
+</selector>
